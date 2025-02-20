@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: cypress-artifacts    # Nombre del archivo resultante
-          path: cypress/videos/      # Carpeta de videos generados por Cypress
+          path: cypress/downloads/      # Carpeta de videos generados por Cypress
