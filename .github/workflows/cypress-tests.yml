@@ -31,10 +31,10 @@ jobs:
       - name: Ejecutar pruebas con Cypress
         run: npx cypress run
 
-      # 🎥 5. Guardar videos y capturas de pantalla si las pruebas fallan
+      # 🎥 5. Guardar videos y capturas de pantalla en caso de fallas
       - name: Guardar videos y capturas de pantalla en caso de fallas
         if: failure()  # Esta acción se ejecuta solo si alguna prueba falla
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cypress-artifacts    # Nombre del archivo resultante
           path: cypress/videos/      # Carpeta de videos generados por Cypress
