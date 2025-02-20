@@ -38,4 +38,15 @@ cy.get('#menu').trigger('mouseover') // Dispara un evento mouseover en el elemen
 cy.get('#menu').trigger('mousedown') // Dispara un evento mousedown en el elemento con id="menu"
 cy.get('#menu').trigger('mouseup') // Dispara un evento mouseup en el elemento con id="menu"
 cy.get('#menu').trigger('mousemove') // Dispara un evento mousemove en el elemento con id="menu"
-cy.get('#username').type('admin{enter}') // Dispara un evento keypress en el elemento con id="username" */
+cy.get('#username').type('admin{enter}') // Dispara un evento keypress en el elemento con id="username" 
+
+Comandos de Git
+git init // Inicializa un repositorio local
+git add . // Agrega todos los archivos al stage
+git commit -m "Automatizacion de login" // Hace un commit con un mensaje
+git pull origin master // Trae los cambios del repositorio remoto
+git push origin master // Sube los cambios al repositorio remoto
+
+
+
+*/

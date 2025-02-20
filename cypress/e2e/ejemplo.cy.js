@@ -24,7 +24,4 @@ describe('Pruebas en Winston Castillo.com', () => {
     HomepageActions.clickOnSubmitButton()
     HomepageActions.verificarMensaje('Warning: No match for E-Mail Address and/or Password.')
   })
-
-
-
 })
